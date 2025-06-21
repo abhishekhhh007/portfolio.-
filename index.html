@@ -1,135 +1,134 @@
 <!DOCTYPE HTML>
 <html>
-    
-  <head><title>portfolio</title></head>  
-  
+<head>
+  <title>Portfolio</title>
   <style>
-      
-      body {
-          text-decoration: none;
-          text-align: center;
-         padding: 2px;
-          font-size: 20px;
-      }
-      .photo {
-          border-radius:50%;
-          width: 200px;
-          height: 200px;
-    
-      }
-      p {
-          font-size: 19px;
-      }
-          
-   
-      
-      
-        </style>
-  
-  
-  
-  <body>
-      
-      <main>
-      <header>
-          <h1>Abhishek Sukumaran</h1>
-          <br>
-          <nav>
-              
+    body {
+      text-decoration: none;
+      text-align: center;
+      padding: 2px;
+      font-size: 20px;
+    }
 
-             <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/moii.png" alt="me" class="photo" width="100px">
-           
-            
-          </nav>
-          
-      </header>
-      
-      <section id="about">
-         <h2>Hi i am Abhishek 👋 🙏🤝</h2>
-         <p><b>I am computational student at kannur university mangattuparamba campus .i am passionate tech enthusiast.i am enjoy developing and learning new things</b></p>
-       
-      </section>
-      
-      <section id="Skills">
+    .photo {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+
+    p {
+      font-size: 19px;
+    }
+
+    #contact {
+      background-color: gray;
+      padding: 20px;
+      text-align: center;
+      border-radius: 18px;
+    }
+
+    #contact h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      margin: auto;
+      width: 400px;
+      border-radius: 26px;
+      text-align: left;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+      font-weight: bold;
+      color: black;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 80%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 2px solid black;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    button[type="submit"] {
+      background-color: green;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    a {
+      display: inline-block;
+      margin: 5px;
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Abhishek Sukumaran</h1>
+      <img src="./IMG-20250606-WA0081(2).jpg" alt="PHOTO" class="photo">
+    </header>
+
+    <section id="about">
+      <h2>Hi, I am Abhishek 👋 🙏🤝</h2>
+      <p><b>I am a computational student at Kannur University, Mangattuparamba campus. I am a passionate tech enthusiast who enjoys developing and learning new things.</b></p>
+      <a href="#Skills">Skills</a> |
+      <a href="#contact">Contact</a>
+    </section>
+
+    <section id="Skills">
       <h3>Skills</h3>
-      <p>HTML , CSS ,C</p>
-      <br>
-      <br>
+      <p>HTML, CSS, C</p>
       <div>
-      <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/logo_html.png" alt="HTML" width="85px">HTML
-      <br>
-      <br>
-
-      
-      <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/logo_css.png" alt="CSS"width="85px">CSS
-      <br>
-      <br>
-      <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/IMG_20250619_190417.jpg" alt="C" width="75px">C
-      <br>
-      <br>
-      
-      
+        <img src="./IMG-20250621-WA0115(1).jpg" alt="HTML" width="85px"><br><br>
+        <img src="./IMG-20250621-WA0113(1).jpg" alt="CSS" width="85px"><br><br>
+        <img src="./IMG-20250621-WA0133.jpg" alt="C" width="75px"><br><br>
       </div>
-      
-      
-      
-      </section>
-      <br>
-      <nav>
-       <a href="https://www.linkedin.com/in/abhishek-sukumaran-45606532b?utm_sourceshare&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank">linkedin</a>
-                  <br>
-              </a>
-              <a href="mailto:abhisheksukumaran91@gmail.com">email</a>
-              <br>
-      
-      </nav>
-      
-      
-      
-      
-      
-      
-          <section id="contact">
-             
-             <h2>Contact info</h2>
-             
-             <form>
-                
-                <label for="name">Name</label>
-                
-                <input type="text" id="name" name="name">
-                <br>
-                <br>
-                
-                
-                <label for="email">Email</label>
-                
-                <input type="email" id="email" name="email">
-                <br>
-                <br>
-      <label for="message" >Message</label>  
-        <textarea id="message " ></textarea>
-        <br>
-        <br>
-                
-  
-                <button type="submit">Message Me</button>
-                <br>
-                
-             </form>
-             
-             
-             
-             
-          </section>
-          
-          
-          
-      
-      </main>
-      
-  </body>
-    
-    
-    
+    </section>
+
+    <nav>
+      <a href="https://www.linkedin.com/in/abhishek-sukumaran-45606532b" target="_blank">LinkedIn</a>
+      <a href="mailto:abhisheksukumaran91@gmail.com">Email</a>
+    </nav>
+
+    <section id="contact">
+      <h2>Contact Info</h2>
+      <form action="https://formspree.io/f/xwpbnvbo" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
 </html>
+      
